@@ -27,22 +27,14 @@ public class House extends GraphicsProgram
 		
 		//Sets the size of the window for the program
 		 setSize(windowX, windowY);
-
-		 Random rand = new Random(255);
-		 Random rand1 = new Random(255);
-		 Random rand2 = new Random(255);
-		 
-		 Color c = new Color(255,255,255);
 		
 		GRect rec = new GRect(50, 50);
 		rec.setLocation(startX, startY);
-		
-		while(true)
-		{
+			
+			
 			rec.setFillColor(Color.BLACK);
 			rec.setFilled(true);
 			add(rec);
-		}
 		
 		
 	}
